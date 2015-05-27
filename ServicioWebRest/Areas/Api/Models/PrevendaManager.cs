@@ -41,7 +41,8 @@ namespace ServicioWebRest.Areas.Api.Models
             Boolean estado = true;
             stringconexion.conexaoAbrir();
 
-            String sql = "SELECT prevenda.prevendaCartao, prevenda.prevendaFechada, prevenda.prevendaData FROM prevenda WHERE prevenda.prevendaCartao=@CARTAO AND prevenda.prevendaFechada=0";
+            String sql = "SELECT prevenda.prevendaCartao, prevenda.prevendaFechada, prevenda.prevendaData FROM";
+            sql+= " prevenda WHERE prevenda.prevendaCartao=@CARTAO AND prevenda.prevendaFechada=0";
 
             SqlCommand cmd = new SqlCommand(sql, stringconexion.conexion);
             cmd.Parameters.AddWithValue("@CARTAO", cartao);

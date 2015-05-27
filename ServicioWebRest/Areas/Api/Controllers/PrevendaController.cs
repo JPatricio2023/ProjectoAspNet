@@ -7,6 +7,21 @@ using ServicioWebRest.Areas.Api.Models;
 
 namespace ServicioWebRest.Areas.Api.Controllers
 {
+    /*###
+     Autor: Gustavo Ovelar
+     Analista Programador
+     Esta clase que extiende del Controler 
+     será el encargado de contener las diferentes acciones que se podrán llamar según la URL y datos HTTP 
+     que recibamos como petición de entrada al servicio.
+     se encargara de llamar a los diferentes métodos  y formatear los resultados como JSON de acuerdo al tipo de
+     requisicion (GET, POST, PUT E DELETE). Para hacer esto 
+     nos valemos del  objetoJsonResult llamado al método Json() pasándole como parámetro 
+     de entrada el objeto a formatear
+     POST    /Api/Vendedores/Vendedor    { Nombre:"nombre", Telefono:123456789 }
+     PUT     /Api/Vendedores/Vendedor/1  { Id:3, Nombre:"nombre", Telefono:123456789 }
+     GET     /Api/Vendedores/Vendedor/1  {"idvendedor":1,"nome":"AKISSANIER MENESES KIOKI"}
+     DELETE  /Api/Vendedores/Vendedor/1
+    ###*/
     public class PrevendaController : Controller
     {
         private PrevendaManager PrevendaManager;
@@ -53,10 +68,7 @@ namespace ServicioWebRest.Areas.Api.Controllers
             return Json(PrevendaManager.sumaConsumoMesa(id.GetValueOrDefault()), JsonRequestBehavior.AllowGet);
         }
 
-        // POST    /Api/Clientes/Cliente    { Nombre:"nombre", Telefono:123456789 }
-        // PUT     /Api/Clientes/Cliente/3  { Id:3, Nombre:"nombre", Telefono:123456789 }
-        // GET     /Api/Clientes/Cliente/3
-        // DELETE  /Api/Clientes/Cliente/3
+       
         //insertar prevenda detalhes
         /*public JsonResult PrevendaDetalhesUpdate(int? id, short? ordem)
         {

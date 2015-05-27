@@ -50,7 +50,7 @@ namespace ServicioWebRest.Areas.Api.Models
             }
 
             reader.Close();
-
+            stringconexion.conexaoFechar();
             return prod;
         }
     }

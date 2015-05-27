@@ -59,12 +59,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Areas\Api\ApiAreaRegistration.cs" />
+    <Compile Include="Areas\Api\Controllers\PrevendaController.cs" />
     <Compile Include="Areas\Api\Controllers\ProdutosController.cs" />
     <Compile Include="Areas\Api\Controllers\VendedoresController.cs" />
     <Compile Include="Areas\Api\Models\ConectionString.cs" />
+    <Compile Include="Areas\Api\Models\Consumo.cs" />
     <Compile Include="Areas\Api\Models\Prevenda.cs" />
     <Compile Include="Areas\Api\Models\PrevendaDetalhes.cs" />
     <Compile Include="Areas\Api\Models\prevendaDetalhesComplemento.cs" />
+    <Compile Include="Areas\Api\Models\PrevendaManager.cs" />
     <Compile Include="Areas\Api\Models\Produto.cs" />
     <Compile Include="Areas\Api\Models\ProdutoManager.cs" />
     <Compile Include="Areas\Api\Models\Vendedor.cs" />

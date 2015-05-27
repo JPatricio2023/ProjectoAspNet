@@ -62,6 +62,9 @@
     <Compile Include="Areas\Api\Controllers\ProdutosController.cs" />
     <Compile Include="Areas\Api\Controllers\VendedoresController.cs" />
     <Compile Include="Areas\Api\Models\ConectionString.cs" />
+    <Compile Include="Areas\Api\Models\Prevenda.cs" />
+    <Compile Include="Areas\Api\Models\PrevendaDetalhes.cs" />
+    <Compile Include="Areas\Api\Models\prevendaDetalhesComplemento.cs" />
     <Compile Include="Areas\Api\Models\Produto.cs" />
     <Compile Include="Areas\Api\Models\ProdutoManager.cs" />
     <Compile Include="Areas\Api\Models\Vendedor.cs" />

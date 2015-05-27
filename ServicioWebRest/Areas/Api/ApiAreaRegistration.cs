@@ -30,6 +30,17 @@ namespace ServicioWebRest.Areas.Api
                      id = UrlParameter.Optional
                  }
             );
+
+            context.MapRoute(
+               "AccesoProduto",
+               "Api/Produtos/Produto/{id}",
+                new
+                {
+                    controller = "Produtos",
+                    action = "Produto",
+                    id = UrlParameter.Optional
+                }
+           );
         }
     }
 }

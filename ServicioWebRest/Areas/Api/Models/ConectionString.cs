@@ -12,7 +12,8 @@ namespace ServicioWebRest.Areas.Api.Models
      Autor: Gustavo Ovelar
      Analista Programador
      Esta clase se encarga de la conexion al banco de datos, para ellos y para que sea dinamico practico, utiliza un achivo
-     txt llamado conexao.txt que devera ser creado en la carpeta raiz de servidor, en este caso como es un IIS  la raiz es o sera 
+     txt llamado conexao.txt que devera ser creado en la carpeta raiz de servidor con la conection strin al
+     banco("Server=GOLIAS;Database=Akira;user Id=sa;password=********"), en este caso como es un IIS  la raiz es o sera 
      *"C:\\inetpub\\wwwroot\\RestService\\Conexao.txt"... sera pos si todavia no esta confirado el ISS deberemos configurarlo despues
     ###*/
     public class ConectionString
@@ -30,7 +31,7 @@ namespace ServicioWebRest.Areas.Api.Models
                 {
                     lineatexto = File.ReadAllText(FILE_NAME);
                 }
-                //SqlConnection conexao = new SqlConnection("Server=GOLIAS;Database=Akira;user Id=sa;password=jeovaDEUS668");
+                //SqlConnection conexao = new SqlConnection("Server=GOLIAS;Database=Akira;user Id=sa;password=********");
                 //Configura a string de conexão
                 //Cnn.ConnectionString = stringConnection;
                 conexion.ConnectionString = @lineatexto;

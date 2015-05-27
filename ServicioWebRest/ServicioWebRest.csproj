@@ -112,6 +112,7 @@
     <Content Include="images\fondo.png" />
     <Content Include="images\logo2.png" />
     <Content Include="images\logohorizontal2.png" />
+    <Content Include="Scripts para Banco\ScripBancoParaOProjetWebServiceRest.sql" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

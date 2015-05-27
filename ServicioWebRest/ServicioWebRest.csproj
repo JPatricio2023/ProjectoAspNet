@@ -59,7 +59,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Areas\Api\ApiAreaRegistration.cs" />
+    <Compile Include="Areas\Api\Controllers\VendedoresController.cs" />
     <Compile Include="Areas\Api\Models\ConectionString.cs" />
+    <Compile Include="Areas\Api\Models\Vendedor.cs" />
+    <Compile Include="Areas\Api\Models\VendedorManager.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -113,7 +116,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Api\Controllers\" />
     <Folder Include="Areas\Api\Views\Shared\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />

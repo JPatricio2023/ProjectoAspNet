@@ -19,6 +19,17 @@ namespace ServicioWebRest.Areas.Api
                 "Api/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
+
+            context.MapRoute(
+                "AccesoVendedor",
+                "Api/Vendedores/Vendedor/{id}",
+                 new
+                 {
+                     controller = "Vendedores",
+                     action = "Vendedor",
+                     id = UrlParameter.Optional
+                 }
+            );
         }
     }
 }

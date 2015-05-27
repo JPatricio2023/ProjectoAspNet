@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2c22cb1b-f28f-4526-9e4b-e3b51228d6dd" name="Gus@GUS-PC 2015-05-26 22:32:52" runUser="Gus-PC\Gus" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7fbd46a3-fec7-4cea-9afd-c8eb2812b437">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Gus_GUS-PC 2015-05-26 22_32_52">
+      <DeploymentItem filename="G:\Xamarin Studio\ServicioWebRest\ServicioWebRest\bin\ServicioWebRest.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-05-26T22:32:52.7410716-03:00" queuing="2015-05-26T22:32:52.8930803-03:00" start="2015-05-26T22:32:52.9710847-03:00" finish="2015-05-26T22:32:54.2691590-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ObtenerVendedorTest" storage="g:\xamarin studio\serviciowebrest\testproject\bin\debug\testproject.dll" id="580fb1de-7d77-b2cb-50c5-bf0ab2a135f0">
+      <Execution id="7e9553e3-e6bf-40c1-90aa-7b912c6d9ded" />
+      <TestMethod codeBase="G:/Xamarin Studio/ServicioWebRest/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.VendedorManagerTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObtenerVendedorTest" />
+      <AspNet webSiteUrl="http://localhost:1913/">
+        <Host pathToWebApp="G:\Xamarin Studio\ServicioWebRest\ServicioWebRest" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="580fb1de-7d77-b2cb-50c5-bf0ab2a135f0" executionId="7e9553e3-e6bf-40c1-90aa-7b912c6d9ded" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7e9553e3-e6bf-40c1-90aa-7b912c6d9ded" testId="580fb1de-7d77-b2cb-50c5-bf0ab2a135f0" testName="ObtenerVendedorTest" computerName="GUS-PC" startTime="2015-05-26T22:32:53.0010865-03:00" endTime="2015-05-26T22:32:54.0001436-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e9553e3-e6bf-40c1-90aa-7b912c6d9ded">
+      <Output>
+        <ErrorInfo>
+          <Message>Could not connect to the Web server for page 'http://localhost:1913/'. O servidor remoto retornou um erro: (404) Não Localizado.. Check that the Web server is running and visible on the network and that the page specified exists.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5d5c5222-78eb-41ef-ac3e-dfae6302d30a" name="Gus@GUS-PC 2015-05-26 21:32:48" runUser="Gus-PC\Gus" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7fbd46a3-fec7-4cea-9afd-c8eb2812b437">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Gus_GUS-PC 2015-05-26 21_32_48">
+      <DeploymentItem filename="G:\Xamarin Studio\ServicioWebRest\ServicioWebRest\bin\ServicioWebRest.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-05-26T21:32:48.2969092-03:00" queuing="2015-05-26T21:32:50.1230136-03:00" start="2015-05-26T21:32:50.2570213-03:00" finish="2015-05-26T21:33:23.4029171-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="conexaoAbrirTest" storage="g:\xamarin studio\serviciowebrest\testproject\bin\debug\testproject.dll" id="3a9ac8dd-88c7-8487-a843-d65ccc6d8bc2">
+      <Execution id="6bc2fa05-20cc-4c91-b9d8-c76a096b0f83" />
+      <TestMethod codeBase="G:/Xamarin Studio/ServicioWebRest/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.ConectionStringTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="conexaoAbrirTest" />
+      <AspNet webSiteUrl="http://localhost:1913/">
+        <Host pathToWebApp="G:\Xamarin Studio\ServicioWebRest\ServicioWebRest" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3a9ac8dd-88c7-8487-a843-d65ccc6d8bc2" executionId="6bc2fa05-20cc-4c91-b9d8-c76a096b0f83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6bc2fa05-20cc-4c91-b9d8-c76a096b0f83" testId="3a9ac8dd-88c7-8487-a843-d65ccc6d8bc2" testName="conexaoAbrirTest" computerName="GUS-PC" startTime="2015-05-26T21:32:50.8760567-03:00" endTime="2015-05-26T21:33:23.1769042-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bc2fa05-20cc-4c91-b9d8-c76a096b0f83">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:1913/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_conexaoAbrirTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GUS-PC\WebRequestResponse_conexaoAbrirTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>

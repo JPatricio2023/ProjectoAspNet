@@ -1,0 +1,7 @@
+G:\Xamarin Studio\ServicioWebRest\TestProject\bin\Debug\TestProject.dll
+G:\Xamarin Studio\ServicioWebRest\TestProject\bin\Debug\TestProject.pdb
+G:\Xamarin Studio\ServicioWebRest\TestProject\bin\Debug\ServicioWebRest.dll
+G:\Xamarin Studio\ServicioWebRest\TestProject\bin\Debug\ServicioWebRest.pdb
+G:\Xamarin Studio\ServicioWebRest\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+G:\Xamarin Studio\ServicioWebRest\TestProject\obj\Debug\TestProject.dll
+G:\Xamarin Studio\ServicioWebRest\TestProject\obj\Debug\TestProject.pdb
